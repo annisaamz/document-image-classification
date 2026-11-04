@@ -1,0 +1,20 @@
+# ---- Data dan artefak besar (JANGAN di-commit) ----
+data/
+checkpoint/
+cache/
+outputs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- Kredensial dan file OS/editor ----
+kaggle.json
+*.zip
+.DS_Store
+.vscode/
+.idea/
